@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <king class="sachtony"></king>
-<Powerapps>
-   <canvas>Business</canvas>
-   <canvas>Enterprise</canvas>
-   <canvas>Commerce</canvas>
-   <canvas>Software</canvas>
-</Powerapps>
+<Tooling>
+  <Powerapps>
+     <canvas>Business</canvas>
+     <canvas>Enterprise</canvas>
+     <canvas>Commerce</canvas>
+     <canvas>Software</canvas>
+  </Powerapps>
+</Tooling>
 <acronym title="sts">Sachtony Software</acronym>
 <acronym title="st">Sachtony</acronym>
 <Software partner="Microsoft">
 
 </Software>
 
-<Commerce template="eStore"> 
-    <partner>Shopify <partner>
+<Commerce> 
+    <partner template="eStore">Shopify <partner>
     <sachtony class="com"></sachtony>
     <Dns: Main="sachtony.com">
     <sub Domain="*.*.sachtony.com"> </sub>
