@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <king class="sachtony"></king>
-<Tooling>
-  <Powerapps>
-     <canvas>Business</canvas>
-     <canvas>Enterprise</canvas>
-     <canvas>Commerce</canvas>
-     <canvas>Software</canvas>
-  </Powerapps>
+<Tooling >
+   <Powerapps Path="https://admin.powerplatform.microsoft.com/">
+      <canvas>Business</canvas>
+      <canvas>Enterprise</canvas>
+      <canvas>Commerce</canvas>
+      <canvas>Software</canvas>
+      <canvas ID="dynamicsroot">Dynamics</canvas>
+   </Powerapps>
+   <VisualStudio Path="https://sachtony.visualstudio.com/">
+      <Devops Path="https://dev.azure.com/Sachtony/"></Devops>
+   </VisualStudio>
 </Tooling>
 <acronym title="sts">Sachtony Software</acronym>
 <acronym title="st">Sachtony</acronym>
-<Software partner="Microsoft">
-
-</Software>
-
+<acronym title="stm-crm">Sachtony mail</acronym>
 <Commerce> 
     <partner template="eStore">Shopify <partner>
-    <sachtony class="com"></sachtony>
-    <Dns: Main="sachtony.com">
-    <sub Domain="*.*.sachtony.com"> </sub>
-    </Dns>
 </Commerce>
