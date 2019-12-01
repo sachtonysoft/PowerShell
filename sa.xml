@@ -16,5 +16,5 @@
 <acronym title="st">Sachtony</acronym>
 <acronym title="stm-crm">Sachtony mail</acronym>
 <Commerce> 
-    <partner template="eStore">Shopify <partner>
+    <partner template="eStore" url="https://partners.shopify.com/971106/stores?">Shopify<partner>
 </Commerce>
