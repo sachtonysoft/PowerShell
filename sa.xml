@@ -8,13 +8,28 @@
       <canvas>Software</canvas>
       <canvas ID="dynamicsroot">Dynamics</canvas>
    </Powerapps>
-   <VisualStudio Path="https://sachtony.visualstudio.com/">
-      <Devops Path="https://dev.azure.com/Sachtony/"></Devops>
-   </VisualStudio>
+   <VisualStudio scr="https://sachtony.visualstudio.com/">
+         <Code scr="https://code.visualstudio.com/"></Code>
+         <Devops scr="https://dev.azure.com/Sachtony/"></Devops>
+         <Devops scr="https://dev.azure.com/Sachtonysoft/"></Devops>
+      </VisualStudio>
 </Tooling>
 <acronym title="sts">Sachtony Software</acronym>
 <acronym title="st">Sachtony</acronym>
 <acronym title="stm-crm">Sachtony mail</acronym>
-<Commerce> 
-    <partner template="eStore" url="https://partners.shopify.com/971106/stores?">Shopify<partner>
-</Commerce>
+<eCommerce > 
+      <Partners>
+         <partner ID="Shopify" template="eStore" scr="https://partners.shopify.com/971106/stores?">
+            <String Build="*">
+               <sub>*<div class="myshopify">*.myshopify</div>.</sub>       
+            </String>
+         <partner>
+         <partner ID="us" Suite="2630-115" scr="https://www.myus.com/partner/">
+            <String>
+               <Location>
+               
+               </Location> 
+            </String>
+         <partner>
+      </Partners>
+</eCommerce>
