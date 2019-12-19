@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <king class="sachtony"></king>
 <Tooling >
-   <Powerapps Path="https://admin.powerplatform.microsoft.com/">
+   <Powerapps Path="https://admin.powerplatform.microsoft.com/" ID="f0fae2c0-c182-45fa-87b9-4d2bab321dc5">
       <canvas>Business</canvas>
       <canvas>Enterprise</canvas>
       <canvas>Commerce</canvas>
