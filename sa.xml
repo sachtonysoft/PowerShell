@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <king class="sachtony"></king>
-<Tooling >
-   <Powerapps Path="https://admin.powerplatform.microsoft.com/" ID="f0fae2c0-c182-45fa-87b9-4d2bab321dc5">
-      <canvas>Business</canvas>
-      <canvas>Enterprise</canvas>
-      <canvas>Commerce</canvas>
-      <canvas>Software</canvas>
-      <canvas ID="dynamicsroot">Dynamics</canvas>
-   </Powerapps>
-   <VisualStudio scr="https://sachtony.visualstudio.com/">
+<Tooling>
+      <Powerapps scr="https://admin.powerplatform.microsoft.com/" ID="f0fae2c0-c182-45fa-87b9-4d2bab321dc5">
+         <Environments ID="dynamics">
+            <String Build="*">
+               <sub>*<div class="dynamics">*.crm5.dynamics</div>.</sub>       
+            </String>
+         </Environments>
+         <Automation scr="https://flow.microsoft.com/"> </Automation>
+      </Powerapps>
+      <VisualStudio scr="https://sachtony.visualstudio.com/">
          <Code scr="https://code.visualstudio.com/"></Code>
          <Devops scr="https://dev.azure.com/Sachtony/"></Devops>
          <Devops scr="https://dev.azure.com/Sachtonysoft/"></Devops>
